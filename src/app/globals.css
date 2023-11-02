@@ -19,11 +19,17 @@
 }
 body {
   background-color: antiquewhite;
+  font-size: xx-large;
 }
 .square {
   border: 1px solid black;
-  padding: 3px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
+  padding: 10px;
+  width: 71px;
+  height: 71px;
+}
+.boardRow {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: 40px;
 }
